@@ -11,8 +11,8 @@ $taille_tableau = 15;
 //initialisation du tableau 
 
 for ($posy=0 ; $posy<$taille_tableau ; $posy++) {
-  for ($posx=0 ; $posx<$taille_tableau ; $posx++) {
-      $tab[$posy][$posx] = '#';
+    for ($posx=0 ; $posx<$taille_tableau ; $posx++) {
+        $tab[$posy][$posx] = '#';
     }
 }
 
@@ -24,11 +24,11 @@ $mot[2]= array('mot' => 'fee','posx' => 7, 'posy' => 8, 'direction' => 0);
 $mot[3]= array('mot' => 'pelle','posx' => 6, 'posy' => 10, 'direction' => 1);
 
 foreach ($mot as $mot[$j] ) {
-  $word = $mot[$j]['mot'];
-  $posx = $mot[$j]['posx'];
-  $posy = $mot[$j]['posy'];
-  $direction = $mot[$j]['direction'];
-  $taille_mot = strlen($word); 
+    $word = $mot[$j]['mot'];
+    $posx = $mot[$j]['posx'];
+    $posy = $mot[$j]['posy'];
+    $direction = $mot[$j]['direction'];
+    $taille_mot = strlen($word); 
 
 // boucle qui permet d'ecrire horizontalement ou verticalement
 
@@ -55,4 +55,3 @@ for ($i=0 ; $i<$taille_tableau ; $i++) {
 }
 
 ?>
-
