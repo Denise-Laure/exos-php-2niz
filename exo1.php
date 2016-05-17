@@ -22,12 +22,12 @@ $mot[0]= array('mot' => 'avion','posx' => 3, 'posy' => 3, 'direction' => 0);
 $mot[1]= array('mot' => 'papillon','posx' => 2, 'posy' => 3, 'direction' => 1);
 $mot[2]= array('mot' => 'fee','posx' => 7, 'posy' => 8, 'direction' => 0);
 
-for ($imp = 0; $imp < 3; $imp++) {
-	$word = $mot[$imp][mot];
-	$posx = $mot[$imp][posx];
-	$posy = $mot[$imp][posy];
-	$direction = $mot[$imp][direction];
-	$taille_mot = strlen ($word); 
+foreach ($mot as $mot[$j] ) {
+  $word = $mot[$j]['mot'];
+  $posx = $mot[$j]['posx'];
+  $posy = $mot[$j]['posy'];
+  $direction = $mot[$j]['direction'];
+  $taille_mot = strlen($word);  
 
 // boucle qui permet d'ecrire horizontalement ou verticalement
 
