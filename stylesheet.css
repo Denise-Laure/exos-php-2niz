@@ -1,0 +1,10 @@
+body {
+		background-color: gray;
+		text-align: center;
+}
+
+.text {
+		display: inline-block;
+    	width: 90px;
+    	text-align: right;
+}
